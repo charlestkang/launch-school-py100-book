@@ -1,0 +1,25 @@
+Exercise 1
+
+Identify the data type or class for each of the following values:
+
+'True'
+False
+(1, 2, 3)
+1.5
+[1, 2, 3]
+2
+range(5)
+{1, 2, 3}
+None
+{'foo': 'bar'}
+
+str
+bool
+tuple
+float
+list
+int
+range
+set
+NoneType
+dict
