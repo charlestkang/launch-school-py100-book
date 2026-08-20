@@ -9,7 +9,7 @@
 # Darwin	lizard
 # You can use that data or make up your own.
 
-d = {
+pets = {
     "Butterscotch": "cat",
     "Pudding": "cat",
     "Neptune": "fish",
@@ -17,4 +17,4 @@ d = {
 }
 
 # Testing
-print(d)
+print(pets)

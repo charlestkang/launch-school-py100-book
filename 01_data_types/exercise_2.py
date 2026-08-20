@@ -10,7 +10,7 @@
 # Darwin
 
 # You can use that data or make up your own.
-t = ('Asta', 'Butterscotch', 'Pudding', 'Neptune', 'Darwin')
+names = ('Asta', 'Butterscotch', 'Pudding', 'Neptune', 'Darwin')
 
 # Testing
-print(t)
+print(names)
