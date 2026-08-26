@@ -1,0 +1,13 @@
+EXERCISE 5
+What does the following code print?
+
+Copy Code
+def scream(words):
+    return words + '!!!!'
+
+scream('Yipeee')
+
+ANSWER:
+
+It prints nothing since there is no call to print or any function outputting to stdout
+scream('Yipeee') returns 'Yipeee!!!!' but that value goes nowhere and does nothing

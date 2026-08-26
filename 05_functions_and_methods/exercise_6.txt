@@ -1,0 +1,15 @@
+EXERCISE 6
+What does the following code print?
+
+Copy Code
+def scream(words):
+    words = words + '!!!!'
+    return
+    print(words)
+
+scream('Yipeee')
+
+
+ANSWER:
+Nothing is printed because print(words) happens after the function returns, 
+so the function terminates before the stdout output. 

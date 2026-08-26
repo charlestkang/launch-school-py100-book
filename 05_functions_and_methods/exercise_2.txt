@@ -1,0 +1,21 @@
+EXERCISE 2
+Take a look at this code snippet:
+
+Copy Code
+foo = 'bar'
+
+def set_foo():
+    foo = 'qux'
+
+set_foo()
+print(foo)
+What does this program print? Why?
+
+ANSWER:
+
+This program prints "bar" because global foo was not declared in set_foo, therefore the 
+function's reassignment of foo is limited to within the function scope. Global attempts
+to reference foo will call the globally set value of "bar" not "qux." 
+
+The local reassignment of foo shadows the global foo but creates a local variable foo that 
+is available only within the function. It shadows the global variable foo but does not change it. 

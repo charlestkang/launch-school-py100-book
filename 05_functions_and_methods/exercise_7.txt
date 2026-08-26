@@ -1,0 +1,20 @@
+EXERCISE 7
+Without running the following code, what do you think it will do?
+
+Copy Code
+def foo(bar, qux):
+    print(bar)
+    print(qux)
+
+foo('Hello')
+
+
+ANSWER:
+Calling foo with insufficient arguments will throw an error, 
+since there are no default values to use. I am uncertain which errors
+will be thrown.
+
+
+BOOK ANSWER:
+TypeError is thrown, with the message:
+TypeError: foo() missing 1 required positional argument: 'qux'

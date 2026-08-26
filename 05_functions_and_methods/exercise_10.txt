@@ -1,0 +1,19 @@
+EXERCISE 10
+Without running the following code, what do you think it will do?
+
+Copy Code
+def foo(first, second=3, third=2):
+    print(first)
+    print(second)
+    print(third)
+
+foo(42, 3.141592)
+
+
+ANSWER:
+The code prints:
+42
+3.141592
+2
+The third parameter is not supplied an argument so it defaults to the default value of 2
+and prints it

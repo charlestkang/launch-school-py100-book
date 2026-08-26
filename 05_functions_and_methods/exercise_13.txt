@@ -1,0 +1,29 @@
+EXERCISE 13
+Without running the following code, what do you think it will do?
+
+Copy Code
+def foo(first, second=3, third):
+    print(first)
+    print(second)
+    print(third)
+
+foo(42)
+
+
+ANSWER:
+There is a positional parameter specified after a keyword argument with a default value,
+so I don't think the function compiles in the first place. Even if it somehow worked,
+there are insufficient arguments supplied (there are two parameters without default 
+values and only one supplied argument) so it would throw a TypeError even if the syntax
+were valid, which I don't think it is.
+
+
+BOOK ANSWER:
+The code will raise an error:
+
+Copy Code
+SyntaxError: non-default argument follows default argument
+
+Here, we've defined foo with three parameters, with the second parameter having a default 
+value. This is an error, however. Once Python sees a positional parameter with a default 
+value, all subsequent parameters must have default values.

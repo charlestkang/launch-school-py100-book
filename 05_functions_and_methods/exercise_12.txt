@@ -1,0 +1,16 @@
+EXERCISE 12
+Without running the following code, what do you think it will do?
+
+Copy Code
+def foo(first, second=3, third=2):
+    print(first)
+    print(second)
+    print(third)
+
+foo()
+
+
+ANSWER:
+The code throws a TypeError; the function foo expects at least one argument
+because there is a parameter without a default value, but without it being
+supplied, the interpreter cannot run the function. 
