@@ -1,0 +1,16 @@
+EXERCISE 13
+Without running the following code, determine what each print statement should print.
+
+Copy Code
+cats = ('Cocoa', 'Cheddar',
+        'Pudding', 'Butterscotch')
+print('Butterscotch' in cats)
+print('Butter' in cats)
+print('Butter' in cats[3])
+print('cheddar' in cats)
+
+ANSWER (in order):
+True
+False
+True
+False

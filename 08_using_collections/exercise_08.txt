@@ -1,0 +1,18 @@
+EXERCISE 8
+Explain why the code below prints different values on lines 3 and 4.
+
+Copy Code
+text = "It's probably pining for the fjords!"
+
+print(text[21:35].rfind('f'))     # 8
+print(text.rfind('f', 21, 35))    # 29
+
+Line 3 of the code creates a new str and finds the index within that new string of the substring
+matching the argument supplied. Line 4 supplies as arguments the start and end positions within the 
+original string within which to search for the substring, but the function is operating on the 
+original string and accounts for the full length of the string when reporting the index of the
+found substring. 
+
+More simply, line 3 conducts rfind on the new str "for the fjords" and identifies the index of the 
+rightmost 'f' within that substring, whereas line 4 conducts the rfind on the specified substring
+within the original text and reports the index within the context of the original entire text str.
