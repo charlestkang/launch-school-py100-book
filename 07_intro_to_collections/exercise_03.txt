@@ -4,7 +4,8 @@ tuples are similar.
 
 
 ANSWER:
-Differences: Lists, unlike tuples, are mutable. Lists are not hashable but tuples are. 
+Differences: Lists, unlike tuples, are mutable. Lists are not hashable but tuples are (if every 
+element in the tuple is hashable). 
 Additionally, lists use square brackets where tuples use parentheses (really tuples use commas,
 not parentheses, but the parentheses are idiomatic).
 
