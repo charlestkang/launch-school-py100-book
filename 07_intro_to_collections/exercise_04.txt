@@ -1,0 +1,7 @@
+# EXERCISE 4
+# Why can we treat strings as sequences?
+
+Strings can be navigated by index, and while they do not contain objects, when their components 
+(chars) are referenced, they are provided as objects. In practice, they can be used as sequences
+of length-1 strings though that is not how they are implemented. In short, they are iterable and 
+ordered. 

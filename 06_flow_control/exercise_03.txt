@@ -1,0 +1,29 @@
+EXERCISE 3
+Without running the following code, what does it print? Why?
+
+Copy Code
+def bar_code_scanner(serial):
+    match serial:
+        case '123':
+            print('Product1')
+        case '113':
+            print('Product2')
+        case '142':
+            print('Product3')
+        case _:
+            print('Product not found!')
+
+bar_code_scanner('113')
+bar_code_scanner(142)
+
+ANSWER:
+'Product2'
+'Product not found!'
+
+The first match case matches to the string 113 and executes the associated
+block. However, the second time bar_code_scanner is called with argument 142,
+the function compares int 142 with str '142' which are not equal. Because 
+none of the match cases are equal to 142, it defaults to case _. 
+More specifically, 142 is compared with '123', '113', and '142', none of which
+are equal; no special treatment was given whereby only '142' was compared with
+the supplied argument. 

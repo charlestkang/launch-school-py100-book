@@ -1,0 +1,22 @@
+EXERCISE 9
+
+Copy Code
+my_list = [1, 2, 3, [4, 5, 6]]
+another_list = list(my_list)
+Given the above code, answer the following questions and explain your answers:
+
+Are the lists assigned to my_list and another_list equal?
+Are the lists assigned to my_list and another_list the same object?
+Are the nested lists at index 3 of my_list and another_list equal?
+Are the nested lists at index 3 of my_list and another_list the same object?
+Don't write any code for this exercise.
+
+The lists assigned to my_list and another_list are equal. They contain the same values. 
+The lists assigned to my_list and another_list are not the same object; another_list is a shallow copy of my_list and while the objects contained
+    are the same objects, the lists themselves are different objects because the constructor returns a new object of the given type rather than 
+    another name for the same object. Using a constructor creates a new object unlike simply assigning another name to the object (e.g. same_list = my_list)
+The nested lists at index 3 of my_list and another_list are equal, since they are the same object because another_list is a shallow copy that copies
+    the references to the objects in my_list instead of forming copies of the objects themselves. 
+The nested lists at index 3 of my_list and another_list are the same object, because another_list is a shallow copy that copies
+    the references to the objects in my_list instead of forming copies of the objects themselves. 
+

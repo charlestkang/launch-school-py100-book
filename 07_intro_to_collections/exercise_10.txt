@@ -1,0 +1,11 @@
+EXERCISE 10
+Bob expects the following code to print the names in alphabetical order. Without running the code, can you say whether it will? Explain your answer.
+
+Copy Code
+names = { 'Chris', 'Clare', 'Karis', 'Karl',
+          'Max', 'Nick', 'Victor' }
+print(names)
+
+Because names is a set, there is no guarantee that the names will print in alphabetical order, since sets are unordered. While their 
+order may display consistently when printed, there is no contract in Python assuring their specific ordering. It would be incorrect
+and unwise to rely on the set names to print in any particular order. 

@@ -1,0 +1,7 @@
+# EXERCISE 5
+# How do the set types differ from the sequence types?
+
+Set types, unlike sequences, are not ordered and cannot be accessed by index, making them a 
+non-sequence collection.
+
+Sets must also contain unique elements.
