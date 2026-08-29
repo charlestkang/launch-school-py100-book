@@ -1,0 +1,13 @@
+# EXERCISE 1
+# The following code causes an infinite loop (a loop that never stops iterating). Why?
+
+# Copy Code
+
+counter = 0
+
+while counter < 5:
+    print(counter)
+
+ANSWER:
+counter is never incremented and stays at 0, so counter == 0 always, and therefore counter is never
+less than 5
