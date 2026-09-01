@@ -1,0 +1,12 @@
+EXERCISE 1
+In your own words, explain the difference between these two expressions.
+
+Copy Code
+my_object1 == my_object2
+my_object1 is my_object2
+
+== evaluates whether the two objects are equivalent according to the equality function described
+in the left hand object type's equality behavior. In simple terms, they usually contain the same 
+information
+
+is evaluates whether the two objects are actually one object, the same object in memory.

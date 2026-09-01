@@ -1,0 +1,13 @@
+EXERCISE 2
+Without running this code, what will it print? Why?
+
+Copy Code
+set1 = {42, 'Monty Python', ('a', 'b', 'c')}
+set2 = set1
+set1.add(range(5, 10))
+print(set2)
+Don't worry about having an exact match for the output. The important part is to show something 
+that accurately represents set2.
+
+ANSWER
+set2 contains range(5, 10)
